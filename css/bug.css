@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.fi {
+  height: 90px;
+  background: #fff; }
+
+.head {
+  width: 1200px;
+  height: 90px;
+  background: #fff;
+  margin: 0 auto;
+  position: relative;
+  margin: 10px 0 10px 0; }
+
+.head img {
+  display: block;
+  height: 70px;
+  margin: 0 0 0 430px; }
+
+.sec {
+  background: #fff; }
+
+.bug {
+  width: 965px;
+  background: #fff;
+  margin: 0 auto; }
+
+.index {
+  display: block;
+  top: 60px;
+  left: 150px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px; }
+
+.goodsList {
+  display: block;
+  top: 60px;
+  left: 200px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px; }
+
+.more {
+  display: block;
+  top: 60px;
+  left: 270px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px; }
+
+.type {
+  width: 965px;
+  height: 38px;
+  border: 1px solid #eee;
+  margin: 0 auto; }
+
+.inpt1 {
+  float: left;
+  height: 38px;
+  line-height: 38px;
+  width: 400px;
+  font-size: 12px;
+  padding-left: 10px; }
+
+.money {
+  float: left;
+  height: 38px;
+  line-height: 38px;
+  width: 144px;
+  font-size: 12px; }
+
+.num {
+  float: left;
+  height: 38px;
+  line-height: 38px;
+  width: 135px;
+  font-size: 12px; }
+
+.total {
+  float: left;
+  height: 38px;
+  line-height: 38px;
+  width: 135px;
+  font-size: 12px; }
+
+#operate {
+  float: left;
+  height: 38px;
+  line-height: 38px;
+  width: 135px;
+  font-size: 12px; }
+
+.chose {
+  float: left;
+  height: 115px;
+  width: 400px;
+  font-size: 12px;
+  padding-left: 10px; }
+
+.pirce {
+  float: left;
+  height: 115px;
+  line-height: 115px;
+  width: 144px;
+  font-size: 12px; }
+
+.bugNum {
+  float: left;
+  height: 115px;
+  width: 135px;
+  font-size: 12px; }
+
+.sum {
+  float: left;
+  height: 115px;
+  line-height: 115px;
+  width: 135px;
+  font-size: 12px; }
+
+.delet {
+  float: left;
+  height: 115px;
+  line-height: 115px;
+  width: 135px;
+  font-size: 12px; }
+
+.Box {
+  width: 965px;
+  height: 115px;
+  background: #fff;
+  border: 1px solid #eee;
+  overflow: hidden;
+  margin-top: 10px; }
+
+.summary {
+  width: 965px;
+  height: 38px;
+  border: 1px solid #eee;
+  margin: 0 auto;
+  margin-top: 50px; }

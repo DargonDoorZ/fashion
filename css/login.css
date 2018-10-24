@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.fi {
+  height: 80px;
+  background: #fff; }
+
+.head {
+  width: 1200px;
+  height: 80px;
+  background: #fff;
+  margin: 0 auto; }
+
+.head img {
+  display: block;
+  margin: 10px 0 0 480px; }
+
+.sec {
+  height: 20px;
+  background: black; }
+
+.warning {
+  width: 1200px;
+  height: 20px;
+  background: black;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px; }
+
+.thi {
+  height: 700px;
+  background: #eee; }
+
+.log {
+  width: 965px;
+  height: 700px;
+  background: #fff;
+  margin: 0 auto; }
+
+.logTit {
+  width: 965px;
+  height: 70px;
+  background: #fff;
+  float: left;
+  border-bottom: 1px dashed #eee; }
+
+.logTit a {
+  display: block;
+  width: 204px;
+  height: 27px;
+  text-align: center;
+  line-height: 27px;
+  color: black;
+  text-decoration: none;
+  float: left;
+  margin: 20px 0 0 50px;
+  font-size: 19px; }
+
+.log2 {
+  width: 593px;
+  height: 630px;
+  background: #fff;
+  float: left;
+  position: relative;
+  border-right: 1px dashed #eee; }
+
+.log2 div {
+  display: none; }
+
+.QRC {
+  width: 597px;
+  height: 630px;
+  background: #fff;
+  float: left;
+  position: absolute;
+  overflow: hidden; }
+
+.ler {
+  position: absolute;
+  top: 82px;
+  left: 197px;
+  z-index: 5; }
+
+.chu {
+  width: 292px;
+  height: 287px;
+  position: absolute;
+  top: 39px;
+  left: 305px;
+  display: none; }
+
+.QRp1 {
+  position: absolute;
+  top: 354px;
+  left: 180px; }
+
+.QRp2 {
+  position: absolute;
+  top: 354px;
+  left: 350px; }
+
+.log3 {
+  width: 368px;
+  height: 630px;
+  background: #fff;
+  float: left;
+  position: relative;
+  border-left: 1px dashed #eee; }
+
+.newO {
+  display: block;
+  float: left;
+  width: 180px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 24px;
+  color: blue;
+  text-decoration: none;
+  background: #fff;
+  position: absolute;
+  top: 65px;
+  left: 85px;
+  border: none; }
+
+.NUM {
+  width: 597px;
+  height: 630px;
+  background: #fff;
+  float: left;
+  position: absolute;
+  overflow: hidden; }
+
+.NUM ul li {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  list-style: none;
+  margin-left: 65px;
+  font-size: 19px; }
+
+.NUM ul {
+  width: 597px;
+  height: 75px; }
+
+.NUMDiv1, .NUMDiv2 {
+  display: none; }
+
+#formQRLogin {
+  width: 414px;
+  height: 225px;
+  background: #fff;
+  margin-left: 97px; }
+
+#QRusername, #QRpassword, #NUMusername {
+  display: block;
+  width: 392px;
+  height: 50px;
+  border: 1px solid #eee;
+  padding-left: 20px;
+  line-height: 50px; }
+
+.remember {
+  display: block;
+  width: 20px;
+  height: 20px; }
+
+#loginInA, #loginInB {
+  display: block;
+  width: 414px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: #eee;
+  color: #fff; }
+
+#formNUMLogin {
+  width: 414px;
+  height: 225px;
+  background: #fff;
+  margin-left: 97px; }
+
+#NUMcode, .Checkcode {
+  display: block;
+  width: 258px;
+  height: 48px;
+  border: 1px solid #eee;
+  padding-left: 20px;
+  line-height: 50px;
+  float: left; }
+
+.four {
+  height: 45px;
+  background: #eee; }
+
+.As {
+  width: 965px;
+  height: 45px;
+  background: #fff;
+  margin: 0 auto; }
+
+.As a {
+  display: block;
+  float: left;
+  width: 107px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  background: gray; }
+
+.As a:hover {
+  background: black; }
+
+.five {
+  height: 109px;
+  background: #eee; }
+
+.five img {
+  display: block;
+  margin: 0 auto; }
+
+#alertBox {
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 450px;
+  width: 300px;
+  height: 200px;
+  background: url("../images/success.jpg") no-repeat;
+  background-size: 100%;
+  line-height: 160px;
+  text-align: center;
+  z-index: 100;
+  border-radius: 35%;
+  font-size: 20px; }

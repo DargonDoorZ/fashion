@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品列表</title>
+	<link rel="stylesheet" href="css/goodsList.min.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src="js/require.js" async="true" defer data-main = 'js/glmain'></script>
+</head>
+<body class="iconfont">
+	<!-- 右边广告 -->
+	<div id="QRcode">
+		<img src="images/er.png" alt="">
+	</div>
+	<div id="fix">
+		<div class="d1">
+			<div class="d11">&#xe602;</div>
+			<a href="" class="a1">客服咨询</a>
+		</div>
+		<div class="d2">
+			<div class="d22">&#xe61c;</div>
+			<a href="" class="a2">微信咨询</a>
+		</div>
+		<div class="d3">
+			<div class="d33">&#xe700;</div>
+			<a href="" class="a3">app下载</a>
+		</div>
+		<div class="d4">
+			<div class="d44">&#xe641;</div>
+			<a href="" class="a4">回到顶层</a>
+		</div>
+			<div id="se">
+				广告
+			</div>
+	</div>
+<!-- 头部 -->
+	<div class="head">
+		<div class="tit">
+			<div class="left">
+				<a href="" id="woman" class="active">女士</a>
+				<a href="" id="man">男士</a>
+				<a href="" id="child">儿童</a>	
+				<div id="littleBall"></div>
+			</div>
+			<div>
+				<a href="index.html"><img src="images/q_03.jpg" alt=""></a>
+			</div>
+			<div  class="right">
+				<a href="#" id="serech">&#xe60b;</a>
+				<a href="">&#xe61d;</a>
+				<a href="">&#xe66f;</a>
+				<input type="text" id="input1">
+			</div>	
+		</div>
+	</div>
+<!-- 菜单 -->
+	<div class="second">
+		<div id="menu">
+			<div style="display:block;" id="menuDiv1"> 
+					<span style="margin-left:20px"><a href="">当季新品</a></span>
+					<span style="margin-left:20px"><a href="">服装</a></span>
+					<span style="margin-left:20px"><a href="">鞋靴</a></span>
+					<span style="margin-left:20px"><a href="">箱包</a></span>
+					<span style="margin-left:20px"><a href="">配件</a></span>
+					<span style="margin-left:20px"><a href="">品牌</a></span>
+					<span style="margin-left:20px"><a href="">TOPMAN</a></span>
+					<span style="color:red"><a href="">SALE</a></span>
+			</div>
+			<div>
+				<span style="margin-left:20px"><a href="">当季新品</a></span>
+				<span style="margin-left:20px"><a href="">服装</a></span>
+				<span style="margin-left:20px"><a href="">鞋靴</a></span>
+				<span style="margin-left:20px"><a href="">箱包</a></span>
+				<span style="margin-left:20px"><a href="">配件</a></span>
+				<span style="margin-left:20px"><a href="">品牌</a></span>
+				<span style="margin-left:20px"><a href="">TOPSHOP</a></span>
+				<span style="color:red"><a href="">SALE</a></span>
+			</div>
+			<div>
+				<span><a href="">当季新品</a></span>
+				<span><a href="">男童装</a></span>
+				<span><a href="">女童装</a></span>
+				<span><a href="">女童鞋</a></span>
+				<span><a href="">男童鞋</a></span>
+				<span><a href="">女童配件</a></span>
+				<span><a href="">南通配件</a></span>
+				<span><a href="">品牌</a></span>
+				<span style="color:red">SALE</span>
+			</div>
+			<ul id="menuUl">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+<!-- goodsList -->
+<div class="GT">
+	<div class="goodsTitle">
+		<p>TOPSHOP 2件7折 3件5折</p>
+		<p id="p2">领券</p>
+		<p id="p3"><img src="images/quan.jpg" alt=""></p>
+	</div>
+</div>
+<div clss="TY">
+	<div class="goodsType">
+		<span id="gTspan">结果</span>
+		<form action="">
+			<a href=""><input type="radio" name="lei"><span>全部</span></a>
+			<a href=""><input type="radio" name="lei"><span>新季</span></a>
+			<a href=""><input type="radio" name="lei"><span>促销</span></a>
+		</form>
+		<div>
+		<a href=""><img src="images/que1.jpg" alt=""></a>
+		<a href=""><img src="images/que2.jpg" alt=""></a>
+		<a href=""><img src="images/que3.jpg" alt=""></a>
+		</div>
+		<a href=""><span>综合排序 ↓↓↓</span></a>
+		<a href=""><span><< 1 2 3 4 5...15>></span></a>
+	</div>
+</div>
+<!-- 商品详情 -->
+<div class="Ag">
+	<div class="allgoods">
+		<div id="goodsChose">
+			<div style="height:40px;width:180px;background:#fff;line-height:40px">
+				<a href="#">
+					<span>品类</span>
+					<span style="float:right;" id="goodsChoseSpan1">></span></a>
+			</div>
+			<div id="goodsChosehide1">
+				<div><input type="radio" name="pinlei"><span>服装</span><span style="float:right;">></span></div>
+				<div><input type="radio" name="pinlei"><span>箱包</span><span style="float:right;">></span></div>
+				<div><input type="radio" name="pinlei"><span>鞋靴</span><span style="float:right;">></span></div>
+				<div><input type="radio" name="pinlei"><span>配件</span><span style="float:right;">></span></div>
+			</div>
+			<div style="height:40px;width:180px;background:#fff;line-height:40px">
+				<a href="#">
+					<span>尺码</span>
+					<span style="float:right;" id="goodsChoseSpan2">></span></a>
+			</div>
+			<div id="goodsChosehide2">
+				<div style="font-size: 12px">国际码</div>
+				<div style="font-size: 14px"><input type="radio" name="size">XXS</div>
+				<div style="font-size: 13px"><input type="radio" name="size">XS</div>
+				<div style="font-size: 13px"><input type="radio" name="size">S</div>
+				<div style="font-size: 13px"><input type="radio" name="size">M</div>
+				<div style="font-size: 13px"><input type="radio" name="size">L</div>
+				<div style="font-size: 13px"><input type="radio" name="size">XL</div>
+				<div style="font-size: 13px"><input type="radio" name="size">XXL</div>
+				<div style="font-size: 13px"><input type="radio" name="size">3XL</div>
+				<div style="font-size: 12px">欧洲码</div>
+				<div style="font-size: 13px"><input type="radio" name="size">70A</div>
+				<div style="font-size: 13px"><input type="radio" name="size">70B</div>
+				<div style="font-size: 13px"><input type="radio" name="size">70C</div>
+				<div style="font-size: 13px"><input type="radio" name="size">70D</div>
+				<div style="font-size: 12px">腰围</div>
+				<div style="font-size: 13px"><input type="radio" name="size">24</div>
+				<div style="font-size: 13px"><input type="radio" name="size">25</div>
+				<div style="font-size: 13px"><input type="radio" name="size">26</div>
+				<div style="font-size: 13px"><input type="radio" name="size">27</div>
+				<div style="font-size: 13px"><input type="radio" name="size">28</div>
+			</div>
+			<div style="height:40px;width:180px;background:#fff;line-height:40px">
+				<a href="#">
+					<span>颜色</span>
+					<span style="float:right;" id="goodsChoseSpan3">></span></a>
+			</div>
+			<div id="goodsChosehide3">
+				<div style="font-size: 13px"><input type="radio" name="color">绿色</div>
+				<div style="font-size: 13px"><input type="radio" name="color">红色</div>
+				<div style="font-size: 13px"><input type="radio" name="color">黄色</div>
+				<div style="font-size: 13px"><input type="radio" name="color">蓝色</div>
+				<div style="font-size: 13px"><input type="radio" name="color">紫色</div>
+				<div style="font-size: 13px"><input type="radio" name="color">粉色</div>
+				<div style="font-size: 13px"><input type="radio" name="color">黑色</div>
+				<div style="font-size: 13px"><input type="radio" name="color">白色</div>
+				<div style="font-size: 13px"><input type="radio" name="color">天蓝</div>
+				<div style="font-size: 13px"><input type="radio" name="color">棕色</div>
+			</div>
+			<div style="height:40px;width:180px;background:#fff;line-height:40px">
+				<a href="#">
+					<span>价格</span>
+					<span style="float:right;" id="goodsChoseSpan4">></span></a>
+			</div>
+			<div id="goodsChosehide4">
+				<div style="font-size: 13px"><input type="radio" name="pirce">0~500</div>
+				<div style="font-size: 13px"><input type="radio" name="pirce">500~1000</div>
+				<div style="font-size: 13px"><input type="radio" name="pirce">1000~2000</div>
+			</div>
+		</div>
+		<div class="goodsInfor"></div>
+	</div>
+</div>
+<!-- 下面一些弟弟 -->
+<div class="ad">
+	<img src="images/smart.jpg" alt="">
+</div> 
+
+</body>
+</html>

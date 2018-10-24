@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.fi {
+  height: 90px;
+  background: #eee; }
+
+.head {
+  width: 1200px;
+  height: 90px;
+  background: #eee;
+  margin: 0 auto; }
+
+.head img {
+  display: block;
+  height: 70px;
+  margin: 0 0 0 430px; }
+
+.sec {
+  height: 700px;
+  background: #eee;
+  border: 1px solid #eee; }
+
+.reg {
+  width: 965px;
+  height: 700px;
+  background: #fff;
+  margin: 0 auto; }
+
+.regTit {
+  width: 272px;
+  height: 24px;
+  background: gray;
+  text-align: center;
+  line-height: 24px;
+  font-size: 14px;
+  margin-left: 335px; }
+
+.regC {
+  width: 965px;
+  height: 676px;
+  background: #fff;
+  margin: 0 auto; }
+
+.regL {
+  width: 593px;
+  height: 630px;
+  background: #fff;
+  float: left;
+  position: relative;
+  border-right: 1px dashed #eee; }
+
+.regR {
+  width: 368px;
+  height: 630px;
+  background: #fff;
+  float: left;
+  position: relative;
+  border-left: 1px dashed #eee; }
+
+.newO {
+  display: block;
+  float: left;
+  width: 180px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 24px;
+  color: blue;
+  text-decoration: none;
+  background: #fff;
+  position: absolute;
+  top: 65px;
+  left: 85px;
+  border: none; }
+
+#regB {
+  display: block;
+  width: 414px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: #eee;
+  color: #fff;
+  margin-top: 20px; }
+
+#QRusername, #QRpassword, #NUMusername, #password {
+  display: block;
+  width: 392px;
+  height: 50px;
+  border: 1px solid #eee;
+  padding-left: 20px;
+  line-height: 50px; }
+
+.remember {
+  display: block;
+  width: 20px;
+  height: 20px; }
+
+#formNUMReg {
+  width: 414px;
+  height: 225px;
+  background: #fff;
+  margin-left: 97px;
+  margin-top: 30px; }
+
+#NUMcode, .Checkcode {
+  display: block;
+  width: 258px;
+  height: 48px;
+  border: 1px solid #eee;
+  padding-left: 20px;
+  line-height: 50px;
+  float: left; }
+
+.four {
+  height: 45px;
+  background: #eee; }
+
+.As {
+  width: 965px;
+  height: 45px;
+  background: #fff;
+  margin: 0 auto; }
+
+.As a {
+  display: block;
+  float: left;
+  width: 107px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  background: gray; }
+
+.As a:hover {
+  background: black; }
+
+.five {
+  height: 109px;
+  background: #eee; }
+
+.five img {
+  display: block;
+  margin: 0 auto; }
